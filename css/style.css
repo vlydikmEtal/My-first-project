@@ -658,7 +658,7 @@ body {
 .five-section__cards {
   position: relative;
   display: flex;
-  gap: 24px;
+  gap: 20px;
 }
 
 .five-section__card::before {
@@ -696,6 +696,10 @@ body {
 .five-section__image {
   margin-bottom: 17px;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.five-section__img {
+  width: 430px;
 }
 
 .five-info__title {
