@@ -498,6 +498,15 @@ body {
   position: absolute;
   left: -80px;
   top: 200px;
+  transition: all 0.2s ease-in-out;
+}
+
+.three-section__card:hover::before {
+  transform: scale(1.1);
+}
+
+.three-section__card:active::before {
+  transform: scale(0.8);
 }
 
 .three-section__card2::after {
@@ -505,6 +514,15 @@ body {
   position: absolute;
   right: -78px;
   top: 200px;
+  transition: all 0.2s ease-in-out;
+}
+
+.three-section__card2:hover::after {
+  transform: scale(1.1);
+}
+
+.three-section__card2:active::after {
+  transform: scale(0.8);
 }
 
 .three-section__image {
@@ -648,6 +666,15 @@ body {
   position: absolute;
   left: -80px;
   top: 200px;
+  transition: all 0.2s ease-in-out;
+}
+
+.five-section__card:hover::before {
+  transform: scale(1.1);
+}
+
+.five-section__card:active::before {
+  transform: scale(0.8);
 }
 
 .five-section__card2::after {
@@ -655,6 +682,15 @@ body {
   position: absolute;
   right: -78px;
   top: 200px;
+  transition: all 0.2s ease-in-out;
+}
+
+.five-section__card2:hover::after {
+  transform: scale(1.1);
+}
+
+.five-section__card2:active::after {
+  transform: scale(0.8);
 }
 
 .five-section__image {
@@ -808,6 +844,15 @@ body {
   position: absolute;
   left: -80px;
   top: 200px;
+  transition: all 0.2s ease-in-out;
+}
+
+.seven-section__card:hover::before {
+  transform: scale(1.1);
+}
+
+.seven-section__card:active::before {
+  transform: scale(0.8);
 }
 
 .seven-section__card2::after {
@@ -815,8 +860,16 @@ body {
   position: absolute;
   right: -78px;
   top: 200px;
+  transition: all 0.2s ease-in-out;
 }
 
+.seven-section__card2:hover::after {
+  transform: scale(1.1);
+}
+
+.seven-section__card2:active::after {
+  transform: scale(0.8);
+}
 
 .three__arrow-three {
   position: absolute;
